@@ -30,18 +30,44 @@ For each query, the program outputs the shortest travel time between the cities.
 ## Example
 
 **Input:**
-20 20 .........GDANSK..... ................... ........#........... ........#........... ##################. #SZCZECIN.........#. #.................#. ##................#. .#################. .#...WARSZAWA....... .#.................. .#############...... .#...........#...... .#..WROCLAW.##...... .#................ .####.......#KIELCE. ......##.#########. .OPOLE..#.*.......#. ........#.KRAKOW..#. ........###########. 0 3 KIELCE KRAKOW 0 KRAKOW GDANSK 0 KRAKOW GDANSK 1
+20 20
+.........GDANSK.....
+........*...........
+........#...........
+........#...........
+*##################.
+#SZCZECIN.........#.
+#.................#.
+##................#.
+.############*#####.
+.#...WARSZAWA.......
+.#..................
+.#############......
+.#...........#......
+.#..WROCLAW.##......
+.#..*.......*.......
+.####.......#KIELCE.
+......*##.#########.
+.OPOLE..#.*.......#.
+........#.KRAKOW..#.
+........###########.
+0
+3
+KIELCE KRAKOW 0
+KRAKOW GDANSK 0
+KRAKOW GDANSK 1
 
 **Output:**
-5 40 40 KIELCE SZCZECIN
+5
+40
+40 KIELCE SZCZECIN
 
 ## Skills Developed
 
 - **Object-Oriented Programming**: Designed the solution using classes and references, implementing custom data structures for string manipulation, memory management, and map traversal.
-- **Algorithm Design**: Applied graph traversal algorithms (like Dijkstra’s shortest path) to calculate the fastest travel routes between cities.
+- **Algorithm Design**: Applied graph traversal algorithms (Dijkstra’s shortest path)
 - **Custom Data Structures**: Implemented custom string classes and data structures instead of using standard libraries, ensuring efficient memory usage and management.
 - **Memory Management**: Manually managed memory with custom pointers, ensuring proper memory deallocation.
-- **Efficient Search and Pathfinding**: Optimized search algorithms for finding paths and handling edge cases in large or complex city maps.
 
 
 
